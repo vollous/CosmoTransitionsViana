@@ -1,16 +1,16 @@
 from setuptools import setup
 
 setup(
-    name="cosmoTransitionsviana",
-    version="2.0.6",
-    packages=['cosmoTransitions', 'cosmoTransitions.examples'],
+    name="cosmoTransitionsViana",
+    version="1.0.0",
+    packages=['cosmoTransitionsViana'],
     package_dir={'cosmoTransitions.examples': 'examples'},
     description=(
         "A package for analyzing finite or zero-temperature cosmological "
         "phase transitions driven by single or multiple scalar fields."
     ),
-    author="Carroll L. Wainwright",
-    author_email="clwainwri@gmail.com",
+    author="J. Viana",
+    author_email="jfvvchico@hotmail.com",
     url="https://github.com/vollous/CosmoTransitionsViana",
     install_requires=['numpy>=1.8', 'scipy>=0.11'],
     license="MIT",
