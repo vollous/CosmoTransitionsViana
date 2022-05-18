@@ -11,7 +11,7 @@ setup(
     ),
     author="Carroll L. Wainwright",
     author_email="clwainwri@gmail.com",
-    url="https://github.com/clwainwright/CosmoTransitions",
+    url="https://github.com/vollous/CosmoTransitionsViana",
     install_requires=['numpy>=1.8', 'scipy>=0.11'],
     license="MIT",
     classifiers=[
