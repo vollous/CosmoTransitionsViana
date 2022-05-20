@@ -1,3 +1,5 @@
+A fork from Carroll Wainwright CosmoTransitions where some improvements were made.
+
 The CosmoTransitions package is a set of python modules for calculating properties of effective potentials with one or more scalar fields. Most importantly, it can be used to find the instanton solutions which interpolate between different vacua in a given theory, allowing one to determine the probability for a vacuum transition.
 
 For more info, please read the documentation_. The current version is available via github_.
@@ -23,7 +25,7 @@ Then from a python prompt you should be able to ``import cosmoTransitions`` and 
 
 CosmoTransitions makes extensive use of numpy_ and scipy_, and the plotting functions use matplotlib_. It is recommended that users also install IPython_ for easier interactive use (IPython also contains an excellent html-based python notebook, which is very handy for organizing computational and scientific work). These packages can be installed separately (using e.g. easy_install_), or as part of a bundle (see the Anaconda_ distribution or the `Enthought Canopy`_ distribution).
 
-CosmoTransitions was built and tested with Python v2.7.6, numpy v1.8.0, scipy v0.11.0, and matplotlib v1.2.0.
+CosmoTransitions was built and tested with Python v3.9.7, numpy v1.17.4, scipy v1.8.1, and matplotlib v3.5.1 on macOS Monterey 12.1
 
 .. _numpy: http://www.numpy.org
 .. _scipy: http://www.scipy.org
